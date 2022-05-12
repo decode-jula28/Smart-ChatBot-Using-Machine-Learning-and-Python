@@ -1,0 +1,255 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye!Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","You were a big help", "I am grateful to you" , "You oblige me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","Couldn't be more glad"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered" , "What facilities you offer"],
+         "responses": ["I can tell you availability of beds, blood banks, oxygen cylinders in Lucknow, Noida, Delhi, Agra, Varanasi"],
+         "context": [""]
+        },
+        {"tag": "beds_in_lucknow",
+         "patterns": ["Number of beds available in Lucknow?", "Availibility of beds in Lucknow", "List of all vacant beds in Lucknow", "Which Hospitals have vacant beds in Lucknow?" ],
+         "responses": ["Apollo Medics","Medanta","Fortis","Trauma Center","Medicare Hospital"],
+         "context": [""]
+        },
+        {"tag": "Ventilators_In_Lucknow",
+         "patterns": ["Number of ventilators available in Lucknow?", "Availibility of ventilators in Lucknow", "List of all  vacant ventilators in Lucknow", "Which Hospitals have vacant ventilators in Lucknow?" ],
+         "responses": ["Apollo Medics","Medanta","Fortis","Trauma Center","Cancer Research Institute"],
+         "context": [""]
+        },
+        {"tag": "oxygen_cylinders_In_Lucknow",
+        "patterns": ["Number of oxygen cylinders available in Lucknow?", "Availibility of oxygen cylinders in Lucknow", "List of all  vacant oxygen cylinders in Lucknow", "Which Hospitals have vacant oxygen cylinders in Lucknow?" ],
+        "responses": ["Apollo Medics","Medanta","Fortis","Trauma Center","Cancer Research Institute","Medicare Hospital","Good Health Center"],
+        "context": [""]
+        },
+        {"tag": "beds_In_Noida",
+        "patterns": ["Number of beds available in Noida?", "Availibility of beds in Noida", "List of all  vacant beds in Noida", "Which Hospitals have vacant beds in Noida?" ],
+        "responses": ["Apollo Medics","Medanta","Fortis","Max Health Care","Red Cross Hospital"],
+        "context": [""]
+        },
+        {"tag": "ventilators_In_Noida",
+        "patterns": ["Number of ventilators available in Noida?", "Availibility of ventilators in Noida", "List of all  vacant ventilators in Noida", "Which Hospitals have vacant ventilators in Noida?" ],
+        "responses": ["Apollo Medics","Medanta","Fortis","Max Health Care"],
+        "context": [""]
+        },
+        {"tag": "oxygen cylinders_In_Noida",
+        "patterns": ["Number of oxygen cylinders available in Noida?", "Availibility of oxygen cylinders in Noida", "List of all  vacant oxygen cylinders in Noida", "Which Hospitals have vacant oxygen cylinders in Noida?" ],
+        "responses": ["Apollo Medics","Medanta","Fortis","Max Health Care"],
+        "context": [""]
+        },
+        {"tag": "beds_In_Varanasi",
+        "patterns": ["Number of beds available in Varanasi?", "Availibility of beds in Varanasi", "List of all  vacant beds in Varanasi", "Which Hospitals have vacant beds in Varanasi?" ],
+        "responses": ["Apollo Medics","Medanta","Fortis","Safe Care Hospital","Medics and Childcare Hospital"],
+        "context": [""]
+        },
+        {"tag": "ventilators_In_Varanasi",
+        "patterns": ["Number of ventilators available in Varanasi?", "Availibility of ventilators in Varanasi", "List of all  vacant ventilators in Varanasi", "Which Hospitals have vacant ventilators in Varanasi?" ],
+        "responses": ["Apollo Medics","Medanta","Fortis"],
+        "context": [""]
+        },
+        {"tag": "oxygen cylinders_In_Varanasi",
+        "patterns": ["Number of oxygen cylinders available in Varanasi?", "Availibility of oxygen cylinders in Varanasi", "List of all  vacant oxygen cylinders in Varanasi", "Which Hospitals have vacant oxygen cylinders in Varanasi?" ],
+        "responses": ["Apollo Medics","Medanta","Fortis","Safe Care Hospital"],
+        "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
