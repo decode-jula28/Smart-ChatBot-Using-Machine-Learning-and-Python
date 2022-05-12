@@ -1,0 +1,2 @@
+# Smart-ChatBot-Using-Machine-Learning-and-Python
+I built a chatbot using python and its libraries. It fetched medical utilities such as availability of beds and ventilators present in any of the hospitals of the particular city asked for. Stop Words were removed from the query and then the techniques of NLTK like tokenization and lemmatization were used to make our data suitable enough to train the model.  PyTorch was used to create the neural network model to implement a model on our dataset.  Tkinter was used to implement a GUI framework of the chatbot window.
